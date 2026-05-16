@@ -1,21 +1,12 @@
-import React  from "react";
+import React from 'react';
+import logo from './assets/C:\Users\ernes\OneDrive\Desktop\Exercise\images\725cbe0ca5da8536fc99c51e00d4d13628bd9745.jpg';
 
 function Header() {
   return (
-       <header className="header">
-        <h1 classname="logo">Little Lemon Restaurant</h1>
-
-        <nav>
-            <ul className="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Reservations</a></li>
-                <li><a href="#">Order Online</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>  
-        </nav>
-       </header>
+    <header>
+        <img src={logo} className="App-logo" alt="logo" />
+      <h1>🍽️ My Restaurant</h1>
+    </header>
   );
 }
 

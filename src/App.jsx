@@ -1,13 +1,17 @@
-import React from 'react'
-import Header from './components/Header.jsx'
+import Header from "./Header";
+import Nav from "./Nav";
+import Main from "./Main";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div>
       <Header />
-      <h2>Welcome to Little Lemon Restaurant!</h2>
+      <Nav />
+      <Main />
+      <Footer />
     </div>
   );
-  
 }
-export default App
+
+export default App;
